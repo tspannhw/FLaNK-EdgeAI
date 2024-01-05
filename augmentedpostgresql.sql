@@ -6,15 +6,15 @@
 
 CREATE TABLE public.stocks (
 	symbol text NOT NULL,
-	uuid text NULL,
+	"uuid" text NOT NULL,
 	ts text NULL,
 	dt text NULL,
 	datetime text NULL,
-	open text NULL,
-	close text NULL,
+	"open" text NULL,
+	"close" text NULL,
 	high text NULL,
 	volume text NULL,
-  low text NULL,
+	low text NULL,
 	CONSTRAINT stocks_pkey PRIMARY KEY (uuid)
 );
 
